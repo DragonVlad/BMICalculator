@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body {
+	background-color: lightblue;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -60%);
+}
+
+h1 {
+	position: relative;
+	bottom: 30px;
+	text-align: center;
+}
+
+.container {
+	border: 5px outset green;
+	background-color: LimeGreen;
+	width: 480px;
+	height: 320px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.block {
+	margin: 5px;
+	display: flex; 
+	flex-direction: row;
+	justify-content: start;
+	align-items: flex-start;
+	color: blue;
+}
+
+label {
+	text-transform: uppercase;
+	font-family: 'Inter';
+	font-size: 22px;
+}
+
+.units {
+	margin-left: 5px;
+	font-family: 'Inter';
+	font-size: 22px;
+	text-transform: lowercase;
+}
+
+input {
+	width: 100px;
+	height: 20px;
+	margin: 0 5px 0 30px;
+	text-align: right;
+	font-size: 16px;
+	padding: 2px 5px 2px 0;
+}
+
+#result {
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.calcBtn {
+	margin-top: 15px; 
+	padding: 5px;
+	font-size: 18px;
+	cursor: pointer;
+}
